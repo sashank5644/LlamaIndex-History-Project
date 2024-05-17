@@ -1,0 +1,44 @@
+!pip install llama-index-core llama_index.embeddings.ollama llama_index.llms.ollama llama-index-readers-file
+!pip install fastembed
+!pip install llama-index-embeddings-fastembed
+
+#imports
+import logging
+import sys
+
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings, ServiceContext
+from llama_index.embeddings.ollama import OllamaEmbedding
+from llama_index.llms.ollama import Ollama
+
+#storing data as 'documents'
+documents = SimpleDirectoryReader("/content/data").load_data()
+
+#Prompt for user input
+from llama_index.core import PromptTemplate
+
+system_prompt = 'You are a QandA assistant, you will accurately give answers to questions based on the information proveded to you'
+
+query_wrapper_prompt = PromptTemplate("<|USER|>{query_str}<|ASSISTANT|>")
+
+# embedding model
+from llama_index.embeddings.fastembed import FastEmbedEmbedding
+Settings.embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
+
+# ollama
+Settings.llm = Ollama(model="llama3", request_timeout=500.0)
+
+service_context = ServiceContext.from_defaults(
+    llm=Settings.llm,
+    embed_model=Settings.embed_model
+)
+
+index = VectorStoreIndex.from_documents(
+    documents,
+    service_context=service_context
+)
+
+query_engine = index.as_query_engine()
+response = query_engine.query("which chapter is about the history of 18th century?")
+print(response)
