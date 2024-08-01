@@ -30,6 +30,8 @@ def query(question):
 
 
 RUN THE LOADING AND STORING VECTORS INTO VECTOR STORE CODE BELOW THE FIRST TIME WITH YOUR PINECONE API KEY
+
+    CREATE A FOLDER IN YOUR WORK DIRECTORY CALLED 'data'  AND UPLOAD PDF DOCUMENTS OF HISTORY BOOKS
     #reader = SimpleDirectoryReader("./data") # , file_extractor=file_extractor
     #documents = reader.load_data()
     #print("Data loaded successfully")
