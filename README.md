@@ -12,6 +12,19 @@ The code was done in Python with tools from LlamaIndex and local Ollama based LL
 
 To run the code you will need to install Ollama through their website, and follow the instruction on the LlamaIndex RAG Code documentation.
 
+Installation
+
+    pip install llama-index-llms-ollama
+    pip install llama-index-embeddings-fastembed
+
+  Clear cache
+
+    rm -rf /var/folders/w9/2rlrrdw13xdff2m0rn934ql80000gp/T/fastembed_cache
+    
+    
+    pip install --upgrade llama-index llama-index-llms-ollama
+    pip install llama-index
+        
 
 Prerequisites
 
