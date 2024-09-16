@@ -10,7 +10,7 @@ The querying of information was done with LlamaIndex through a query engine whic
 
 The code was done in Python with tools from LlamaIndex and local Ollama based LLM model llama 3.
 
-To run the code you will need to install Ollama through their website, and follow the instruction on the LlamaIndex RAG Code documentation.
+To run the code you will need to install Ollama through their website, and follow the instruction on the LlamaIndex RAG.py documentation.
 
 Installation
 
