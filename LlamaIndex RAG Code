@@ -17,9 +17,6 @@ def embedModel():
 
 
 def LLMModel():
-    #from llama_index.llms.huggingface import HuggingFaceLLM
-    #Settings.llm = HuggingFaceLLM(model_name="facebook/opt-iml-max-30b")
-    #print("opt-iml-max-30b model instantiated successfully")
     Settings.llm = Ollama(model="llama3", request_timeout=3600) # pip install --upgrade llama-index llama-index-llms-ollama
     print("Ollama model instaniated successfully")
 
