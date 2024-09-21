@@ -22,4 +22,9 @@ Installation
 
 Prerequisites
 
-Go to PineCone ("https://login.pinecone.io/login?state=hKFo2SBoM3RvdXkyWGJEWnFqSmRvbXNYVVFMdnplM2NhRHpFQaFupWxvZ2luo3RpZNkgZkZrQU9XemJkblZjQjRpbWNJbVlWTUZpMGV0ZmtNemKjY2lk2SBUOEkyaEc2Q2FaazUwT05McWhmN3h6a1I0WmhMcVM0Qw&client=T8I2hG6CaZk50ONLqhf7xzkR4ZhLqS4C&protocol=oauth2&audience=https%3A%2F%2Fus-central1-production-console.cloudfunctions.net%2Fapi%2Fv1&scope=openid%20profile%20email%20read%3Acurrent_user&redirect_uri=https%3A%2F%2Fapp.pinecone.io&sessionType=signup&response_type=code&response_mode=query&nonce=LUlWMzdPMTZUc1FYTjZ1Y013UUlYWDZ1TnhJWU5MazZsY2V5bXhfcFl0bw%3D%3D&code_challenge=GixqfohLLF_k5DAU_hLAG-MrTkreLKKRZxUaUl8HdWU&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS4xMi4xIn0%3D") and create an API Key.
+Go to PineCone and create an API Key ("https://login.pinecone.io/login?state=hKFo2SBoM3RvdXkyWGJEWnFqSmRvbXNYVVFMdnplM2NhRHpFQaFupWxvZ2luo3RpZNkgZkZrQU9XemJkblZjQjRpbWNJbVlWTUZpMGV0ZmtNemKjY2lk2SBUOEkyaEc2Q2FaazUwT05McWhmN3h6a1I0WmhMcVM0Qw&client=T8I2hG6CaZk50ONLqhf7xzkR4ZhLqS4C&protocol=oauth2&audience=https%3A%2F%2Fus-central1-production-console.cloudfunctions.net%2Fapi%2Fv1&scope=openid%20profile%20email%20read%3Acurrent_user&redirect_uri=https%3A%2F%2Fapp.pinecone.io&sessionType=signup&response_type=code&response_mode=query&nonce=LUlWMzdPMTZUc1FYTjZ1Y013UUlYWDZ1TnhJWU5MazZsY2V5bXhfcFl0bw%3D%3D&code_challenge=GixqfohLLF_k5DAU_hLAG-MrTkreLKKRZxUaUl8HdWU&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS4xMi4xIn0%3D") 
+
+
+Go to OpenStax and download as many history documents as you want from openly available history textbooks:
+https://openstax.org/
+
