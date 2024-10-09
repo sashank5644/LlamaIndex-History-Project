@@ -31,4 +31,4 @@ You can ask any question, however since the RAG model is for this option is trai
 answers to questions related to the amendments of the U.S. Please give it time to respond as this is a free LLM model and can take up to 5 minutes,
 to answer. In general only 1-2 minutes.
 
-If you want the complete RAG model simulation for all history topics please see [Option 1](URL)
+If you want the complete RAG model simulation for all history topics please see [Option 1](Option_1_README.md)
