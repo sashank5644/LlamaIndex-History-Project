@@ -47,8 +47,10 @@ Select one of the options for testing the project, and follow the instructions a
     * You will need to download history text data from free available websites
 
 [Option 2](Options/Option_2_README.md). Run test RAG application using only 2 documents (Amendments of U.S.) as data
-    * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
-    * Application can answer questions about U.S. Amendments)
+    
+   * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
+   * Application can answer questions about U.S. Amendments)
+   * No need to download external history text data
 
 
 **Initial Setup**
