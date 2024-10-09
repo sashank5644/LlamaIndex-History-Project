@@ -34,6 +34,17 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 
 # Getting Started
 
+There are 2 simulations offered for this project:
+
+1. Run test RAG application using only 2 documents (Amendments of US) as data
+    * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
+    * Application can answer questions about U.S. Amendments)
+
+2. Run complete RAG application for history
+    * (Longer runtime, application performs the functionalties for History Agent)
+    * Uses vector database and requires Pinecone account creation for API key
+
+
 To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part and their detailed instructions includes for setup, configurations, and deployment are described below.
 
 For this project you will need **Python version 3.11.10**
