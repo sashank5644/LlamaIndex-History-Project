@@ -41,6 +41,7 @@ There are 2 simulations offered for this project:
 Select one of the options for testing the project, and follow the instructions after for intial setup as they are required for either option.
 
 [Option 1](Options/Option_1_README.md). Run complete RAG application for history
+
     * (Longer runtime, application performs the functionalties for History Agent)
     * Uses vector database and requires Pinecone account creation for API key
     * You will need to download history text data from free available websites
