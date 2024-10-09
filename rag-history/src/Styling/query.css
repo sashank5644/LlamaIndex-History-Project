@@ -1,0 +1,94 @@
+.response-container {
+    background-color: #cfacac76; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 12px; /* Spacing around the text */
+    margin: 10px 0; /* Space between messages */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 100%; /* Limit width for better appearance */
+    display: flex;
+    flex-direction: column; /* Stack messages vertically */
+    height: 600px;
+    overflow-y: auto;
+}
+  
+.response-message {
+    margin: 5px 0; /* Space between messages */
+    display: flex;
+    justify-content: flex-start; /* Align bot messages to the left */
+}
+  
+.user {
+    align-self: flex-end; /* Align user messages to the right */
+    background-color: #3d3737; /* User message background */
+    color: white; /* User text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 8px; /* Spacing around user text */
+    max-width: 60%; /* Limit width for user message */
+}
+  
+.bot {
+    align-self: flex-start; /* Align bot messages to the left */
+    background-color: #3d3737; /* Bot message background */
+    color: white; /* Bot text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 8px; /* Spacing around bot text */
+    max-width: 60%; /* Limit width for bot message */
+}
+  
+.input-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Space between response and input */
+}
+  
+.input-box {
+    width: 90%;
+    max-width: 1200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: #3d3737;
+    padding-left: 20px;
+    resize: vertical;
+    overflow: auto;
+    max-height: 40px;
+    color: #ffffff;
+}
+  
+.send-button {
+    margin-left: 8px; /* Space between input and button */
+    padding: 8px 16px; /* Adjust padding for button */
+    border: none; /* Remove default border */
+    border-radius: 30px; /* Match input border radius */
+    background-color: #3d3737; /* Same background color as input */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Match font size */
+}
+  
+.send-button:hover {
+    background-color: #5e5e5e; /* Darken button on hover */
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db; /* Change this color to fit your theme */
+    border-radius: 50%;
+    width: 30px; /* Size of the spinner */
+    height: 30px; /* Size of the spinner */
+    animation: spin 1s linear infinite; /* Animation for spinning */
+    margin: 0 auto; /* Center the spinner */
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.user-icon, .bot-icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  border-radius: 50%; /* Make the icon circular */
+  margin: 0 10px; /* Space between the icon and text */
+}

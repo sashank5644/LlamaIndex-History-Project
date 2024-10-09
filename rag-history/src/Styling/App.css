@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #212121;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #b4b4b4;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push chat to bottom */
+  flex: 1; /* Take remaining height */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling */
+}
+
+.input-info {
+  margin-top: 20px; /* Space between header and chat */
+  width: 100%;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push chat to bottom */
+  flex: 1; /* Take remaining height */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling */
+}
