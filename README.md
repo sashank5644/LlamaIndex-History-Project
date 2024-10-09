@@ -31,8 +31,7 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 * Data: Includes initial 2 documents (Amendments of U.S.) and will be used to store openly available history text data
 * rag-history: Contains React application with CSS components, and stores Flask framework with Python integrated with Pinecone.
 * Test Data: Comprises of 2 documents (Amendments of U.S.) and is used for quick testing without pinecone account creation (READ BELOW FOR MORE INFORMATION)
-* Option_1_README: Instructions for running option 1 (SEE BELOW FOR MORE INFO)
-* Option_2_README: Instructions for running option 2 (SEE BELOW FOR MORE INFO)
+* Options: Instructions for running option 1 and option 2 (SEE BELOW FOR MORE INFO)
 
 
 # Getting Started
@@ -41,11 +40,11 @@ There are 2 simulations offered for this project:
 
 Select one of the options for testing the project, and follow the instructions after for intial setup as they are required for either option.
 
-[Option 1](URL). Run test RAG application using only 2 documents (Amendments of U.S.) as data
+[Option 1](Options/Option_1_README.md). Run test RAG application using only 2 documents (Amendments of U.S.) as data
     * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
     * Application can answer questions about U.S. Amendments)
 
-[Option 2](URL). Run complete RAG application for history
+[Option 2](Options/Option_2_README.md). Run complete RAG application for history
     * (Longer runtime, application performs the functionalties for History Agent)
     * Uses vector database and requires Pinecone account creation for API key
     * You will need to download history text data from free available websites
@@ -98,5 +97,5 @@ It is best practice to create a virtual environment to manage the required depen
       npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
 
       
-Please follow the above instructions and select an option ([Option 1](Option_1_README.md)) or ([Option 2](Option_2_README.md)] to simulate the application on your local deployment environemnt.
+Please follow the above instructions and select an option ([Option 1](Options/Option_1_README.md)) or ([Option 2](Options/Option_2_README.md)] to simulate the application on your local deployment environemnt.
 
