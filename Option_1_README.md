@@ -34,7 +34,7 @@ Go to your url running the web application on you machine, most often: [https://
 
 Open RAG.py file inside src/Backend
 
-**First Time Running Application**
+<u>**First Time Running Application**</u>
 
 If it is your first time either running **this** file (RAG.py)/following this option (**Option 1**), it is likely that you haven't vectorized the history data and stored it in the database. In order to do so make sure that any lines between where it says "If you are running for the first time / did not store embeddings in vector store" is uncommented.
 
