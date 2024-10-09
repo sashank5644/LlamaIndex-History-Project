@@ -28,21 +28,23 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 
 # Repository Structure
 
-* Frontent: Contains React application with CSS components. See frontend_readme for details
-* Backend: Stores Flask framework with Python integrated with Pinecone. See beackend_readme for details
+* Data: Includes initial 2 documents (Amendments of U.S.) and will be used to store openly available history text data
+* rag-history: Contains React application with CSS components, and stores Flask framework with Python integrated with Pinecone.
+* Test Data: Comprises of 2 documents (Amendments of U.S.) and is used for quick testing without pinecone account creation (READ BELOW FOR MORE INFORMATION)
 
 
 # Getting Started
 
 There are 2 simulations offered for this project:
 
-1. Run test RAG application using only 2 documents (Amendments of US) as data
+1. Run test RAG application using only 2 documents (Amendments of U.S.) as data
     * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
     * Application can answer questions about U.S. Amendments)
 
 2. Run complete RAG application for history
     * (Longer runtime, application performs the functionalties for History Agent)
     * Uses vector database and requires Pinecone account creation for API key
+    * You will need to download history text data from free available websites
 
 
 To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part and their detailed instructions includes for setup, configurations, and deployment are described below.
