@@ -31,6 +31,8 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 * Data: Includes initial 2 documents (Amendments of U.S.) and will be used to store openly available history text data
 * rag-history: Contains React application with CSS components, and stores Flask framework with Python integrated with Pinecone.
 * Test Data: Comprises of 2 documents (Amendments of U.S.) and is used for quick testing without pinecone account creation (READ BELOW FOR MORE INFORMATION)
+* Option_1_README: Instructions for running option 1 (SEE BELOW FOR MORE INFO)
+* Option_2_README: Instructions for running option 2 (SEE BELOW FOR MORE INFO)
 
 
 # Getting Started
