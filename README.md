@@ -98,5 +98,5 @@ It is best practice to create a virtual environment to manage the required depen
       npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
 
       
-Please follow the above instructions and select an option ([Option 1](URL)) or ([Option 2](URL)] to simulate the application on your local deployment environemnt.
+Please follow the above instructions and select an option ([Option 1](Option_1_README.md)) or ([Option 2](Option_2_README.md)] to simulate the application on your local deployment environemnt.
 
