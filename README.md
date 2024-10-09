@@ -61,7 +61,7 @@ It is best practice to create a virtual environment to manage the required depen
 
       venv\Scripts\activate
 
-**Install Dependencies**
+**Install Dependencies (backend)**
 
       pip install llama-index
       pip install llama-index-embeddings-fastembed
@@ -69,6 +69,10 @@ It is best practice to create a virtual environment to manage the required depen
       pip install flask-cors
       pip install llama-index-llms-ollama
       pip install llama-index-vector-stores-pinecone
+
+**Navigate to rag-history directory**
+
+      cd <repository-directory>
 
 **Install Node Modules and Fontawesome (Frontend)**
 
