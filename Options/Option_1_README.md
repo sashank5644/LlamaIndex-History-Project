@@ -44,7 +44,7 @@ Lines that should be commented are 85-91
 
 This is because the application is set to use the vector embeddings for sythesizing a response, and since it is your first time running the application, you will need to embed the data and store them in the vector store, so that future simulations won't need you to embed all the data again.
 
-Please be patient, as depending on the amount of data fed, the embedding process can vary in time, generally running this for the first time takes a while because of the content and resources it is working with. If you want to test it quicker please see ([Option 2](URL)).
+Please be patient, as depending on the amount of data fed, the embedding process can vary in time, generally running this for the first time takes a while because of the content and resources it is working with. If you want to test it quicker please see ([Option 2](Option_2_README.md)).
 
 
 **Not First Time Running Application**
@@ -70,4 +70,4 @@ You can ask any question, and depending on the amount of history text data you h
 answers to questions related to what is present in the data you fed. Please give it time to respond as this is a free LLM model and can take up to 5 minutes
 to answer. 
 
-If you want the quicker RAG model simulation for testing the application on smaller data please see [Option 2](URL).
+If you want the quicker RAG model simulation for testing the application on smaller data please see [Option 2](Option_2_README.md).
