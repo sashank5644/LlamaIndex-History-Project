@@ -4,7 +4,7 @@
 
 # Step 1
 
-Start Ollama
+Start Ollama if not already running
 
 # Step 2
 
