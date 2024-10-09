@@ -44,7 +44,7 @@ Select one of the options for testing the project, and follow the instructions a
 
    * (Longer runtime, application performs the functionalties for History Agent)
    * Uses vector database and requires Pinecone account creation for API key
-   * You will need to download history text data from free available websites
+   * You will need to download free history text data from available websites
 
 [Option 2](Options/Option_2_README.md). Run test RAG application using only 2 documents (Amendments of U.S.) as data
     
