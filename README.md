@@ -37,15 +37,19 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 
 There are 2 simulations offered for this project:
 
-1. Run test RAG application using only 2 documents (Amendments of U.S.) as data
+Select one of the options for testing the project, and follow the instructions after for intial setup as they are required for either option.
+
+[Option 1](URL). Run test RAG application using only 2 documents (Amendments of U.S.) as data
     * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
     * Application can answer questions about U.S. Amendments)
 
-2. Run complete RAG application for history
+[Option 2](URL). Run complete RAG application for history
     * (Longer runtime, application performs the functionalties for History Agent)
     * Uses vector database and requires Pinecone account creation for API key
     * You will need to download history text data from free available websites
 
+
+**Initial Setup**
 
 To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part and their detailed instructions includes for setup, configurations, and deployment are described below.
 
@@ -90,8 +94,7 @@ It is best practice to create a virtual environment to manage the required depen
 **Install Node Modules and Fontawesome (Frontend)**
 
       npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+
       
-
-
-Please follow the above instructions to simulate the application on your local deployment environemnt.
+Please follow the above instructions and select an option ([Option 1](URL)) or ([Option 2](URL)] to simulate the application on your local deployment environemnt.
 
