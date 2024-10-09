@@ -19,7 +19,7 @@ Once you have the key, please insert it in the RAG.py file where is says "YOUR A
 
 # Step 3
 
-Start Ollama if not running
+Start Ollama if not already running
 
 # Step 4
 
