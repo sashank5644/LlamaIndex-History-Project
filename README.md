@@ -40,14 +40,14 @@ There are 2 simulations offered for this project:
 
 Select one of the options for testing the project, and follow the instructions after for intial setup as they are required for either option.
 
-[Option 1](Options/Option_1_README.md). Run test RAG application using only 2 documents (Amendments of U.S.) as data
-    * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
-    * Application can answer questions about U.S. Amendments)
-
-[Option 2](Options/Option_2_README.md). Run complete RAG application for history
+[Option 1](Options/Option_1_README.md). Run complete RAG application for history
     * (Longer runtime, application performs the functionalties for History Agent)
     * Uses vector database and requires Pinecone account creation for API key
     * You will need to download history text data from free available websites
+
+[Option 2](Options/Option_2_README.md). Run test RAG application using only 2 documents (Amendments of U.S.) as data
+    * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
+    * Application can answer questions about U.S. Amendments)
 
 
 **Initial Setup**
