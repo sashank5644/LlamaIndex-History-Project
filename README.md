@@ -34,10 +34,47 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 
 # Getting Started
 
-To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part includes a README file that contains comprehensive instructions for setup, configurations, and deployment.
+To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part and their detailed instructions includes for setup, configurations, and deployment are described below.
 
-* For frontend setup, please refer to frontend_readme
-* for backend setup, please refer to backend_readme
+For this project you will need **Python version 3.11.10**
 
-Please follow the instructions in these files to get the application up and running on your local deployment environemnt.
+You will also need **Ollama** to run the local LLM model
+
+Download https://ollama.com/
+
+It is best practice to create a virtual environment to manage the required dependencies and framework versions for this project. To initialize and set up a virtual environment, first clone this repository to your local development environment.
+
+    git clone <repository-url>
+
+**Create a Virtual Environmet**
+
+    python -m venv venv
+
+
+**Activate the Virtual Environment**
+
+* MacOS/Linux:
+
+      source venv/bin/activate
+
+* Windows:
+
+      venv\Scripts\activate
+
+**Install Dependencies**
+
+      pip install llama-index
+      pip install llama-index-embeddings-fastembed
+      pip install Flask pinecone
+      pip install flask-cors
+      pip install llama-index-llms-ollama
+      pip install llama-index-vector-stores-pinecone
+
+**Install Node Modules and Fontawesome (Frontend)**
+
+      npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+      
+
+
+Please follow the above instructions to simulate the application on your local deployment environemnt.
 
