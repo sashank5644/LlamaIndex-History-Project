@@ -55,7 +55,7 @@ Select one of the options for testing the project, and follow the instructions a
 
 **Initial Setup**
 
-To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part and their detailed instructions includes for setup, configurations, and deployment are described below.
+To run this full stack project, you will need to run both the frontend and backend portions of the application. Each respective part and their detailed instructions for setup, configurations, and deployment are described below.
 
 For this project you will need **Python version 3.11.10**
 
