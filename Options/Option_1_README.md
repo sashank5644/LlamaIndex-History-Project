@@ -6,6 +6,7 @@
 
 Curate valid history data to feed to RAG model. 
 Please head over to [free history textbook website](https://glhssocialstudies.weebly.com/world-history-textbook---pdf-copy.html) and download as many history realted pdf files from "World History" and "U.S. History" as you would like and store them in the "data" folder inside this project directory. The more data, the more context the RAG model covers.
+
 More websites for history text data:
 * [OpenStax](https://openstax.org/)
 * [Center for Open Education](https://open.umn.edu/opentextbooks/subjects/history)
