@@ -3,7 +3,7 @@
 # UI
 <img width="1287" alt="Screen Shot 2024-10-12 at 10 28 14 PM" src="https://github.com/user-attachments/assets/6a0f0e3d-0309-4891-923f-6968be9949a5">
 <img width="1290" alt="Screen Shot 2024-10-12 at 10 28 59 PM" src="https://github.com/user-attachments/assets/ffb76e19-c1ef-470e-ac1e-6d1e836902e2">
-
+<img width="1287" alt="Screen Shot 2024-10-12 at 10 29 51 PM" src="https://github.com/user-attachments/assets/eefc5c9d-2d14-4ed2-8b5b-793f3b7ff34e">
 
 # Project Overview
 
