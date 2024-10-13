@@ -98,7 +98,7 @@ It is best practice to create a virtual environment to manage the required depen
 
 **Navigate to rag-history directory**
 
-      cd <repository-directory>
+      cd rag-history
 
 **Install Node Modules and Fontawesome (Frontend)**
 
