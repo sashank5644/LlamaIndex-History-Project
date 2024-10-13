@@ -1,6 +1,7 @@
 # History Agent (RAG)
 
 # UI
+<img width="1287" alt="Screen Shot 2024-10-12 at 10 28 14 PM" src="https://github.com/user-attachments/assets/6a0f0e3d-0309-4891-923f-6968be9949a5">
 
 
 # Project Overview
