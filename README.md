@@ -2,7 +2,6 @@
 
 # UI
 
-<img width="1308" alt="Screen Shot 2024-10-12 at 12 48 14 PM" src="https://github.com/user-attachments/assets/2650f6a0-0424-4f83-93af-7405646b217d">
 
 # Project Overview
 
