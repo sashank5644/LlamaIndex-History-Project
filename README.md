@@ -1,5 +1,9 @@
 # History Agent (RAG)
 
+# UI
+
+<img width="1308" alt="Screen Shot 2024-10-12 at 12 48 14 PM" src="https://github.com/user-attachments/assets/2650f6a0-0424-4f83-93af-7405646b217d">
+
 # Project Overview
 
 The History Agent project is a full-stack web application designed as an expert chat engine for historical inquiries. Leveraging the principles of Retrieval-Augmented Generation (RAG), this application utilizes the advanced Llama 3 language model to deliver evidence-based responses to historical questions.
