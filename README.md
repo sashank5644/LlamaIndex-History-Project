@@ -68,7 +68,7 @@ You will also need **Ollama** to run the local LLM model
 
 Download https://ollama.com/
 
-It is best practice to create a virtual environment to manage the required dependencies and framework versions for this project. To initialize and set up a virtual environment, first clone this repository to your local development environment.
+It is best to create a virtual environment to manage the required dependencies and framework versions for this project. To initialize and set up a virtual environment, first clone this repository to your local development environment.
 
     git clone <repository-url>
 
