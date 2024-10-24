@@ -95,7 +95,7 @@ It is best to create a virtual environment to manage the required dependencies a
 
       cd rag-history
 
-**Install Node Modules, Axios, and Fontawesome if Not Already Installed (Frontend)**
+**Install Node Modules, Axios, and Fontawesome (Frontend)**
 
       npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
 
