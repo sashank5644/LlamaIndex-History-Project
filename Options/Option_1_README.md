@@ -21,9 +21,18 @@ Once you have the key, please insert it in the RAG.py file where is says "YOUR A
 
 # Step 3
 
-Start Ollama if not already running
+You need to create a MongoDB account for managing previous history chat information.
+It is free to create, please head over to [MongoDB](https://www.mongodb.com/) and create an account.
+Next, navigate to the ATLAS cloud platform and create a new Project with default settings
+Navigate to your newly created project and build a new cluster on AWS cloud services and your region 
+Connect using native connection, make sure to select python and most recent version of Mongo driver
+Make sure to insert your unique driver connection link in MongoDB.py where it says "Your MongoDB Driver Connection" 
 
 # Step 4
+
+Start Ollama if not already running
+
+# Step 5
 
 On your terminal inside rag-history directory of this project start web application with:
 
@@ -32,7 +41,7 @@ On your terminal inside rag-history directory of this project start web applicat
 Go to your url running the web application on you machine, most often: [https://localhost:3000](https://localhost:3000)
 
 
-# Step 5
+# Step 6
 
 Open RAG.py file inside src/Backend
 
