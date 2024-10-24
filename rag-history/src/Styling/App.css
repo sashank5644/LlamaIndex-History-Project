@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #212121;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  padding: 0 50px;
+  color: #b4b4b4;
+  box-sizing: border-box;
+}
+
+.dropdown-icon {
+  font-size: calc(16px + 2vmin);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dropdown-icon:hover {
+  color: #ffffff;
+}
+
+.user-icon {
+  font-size: calc(20px + 2vmin);
+  cursor: pointer;
+  color: #b4b4b4;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.user-icon:hover {
+  color: #ffffff;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push chat to bottom */
+  flex: 1; /* Take remaining height */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling */
+}
+
+.input-info {
+  margin-top: 20px; /* Space between header and chat */
+  width: 100%;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push chat to bottom */
+  flex: 1; /* Take remaining height */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling */
+}
