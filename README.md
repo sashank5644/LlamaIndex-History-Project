@@ -1,9 +1,13 @@
 # History Agent (RAG)
 
 # UI
+
+Final UI
 <img width="1292" alt="Screen Shot 2024-10-23 at 11 59 57 PM" src="https://github.com/user-attachments/assets/46b29a95-6917-411e-995e-e9bbbaeb64fa">
-<img width="1290" alt="Screen Shot 2024-10-12 at 10 28 59 PM" src="https://github.com/user-attachments/assets/ffb76e19-c1ef-470e-ac1e-6d1e836902e2">
-<img width="1287" alt="Screen Shot 2024-10-12 at 10 29 51 PM" src="https://github.com/user-attachments/assets/eefc5c9d-2d14-4ed2-8b5b-793f3b7ff34e">
+<img width="1290" alt="Screen Shot 2024-10-24 at 12 00 26 AM" src="https://github.com/user-attachments/assets/873fe316-467f-415b-8228-4bd90164c1c2">
+<img width="1273" alt="Screen Shot 2024-10-24 at 12 01 02 AM" src="https://github.com/user-attachments/assets/9a61664a-3c9b-47ae-b8b2-8a301a027879">
+<img width="1298" alt="Screen Shot 2024-10-24 at 12 01 43 AM" src="https://github.com/user-attachments/assets/34693d21-9873-4996-ae51-b50ed1d1f94f">
+<img width="1280" alt="Screen Shot 2024-10-24 at 12 05 42 AM" src="https://github.com/user-attachments/assets/78474afa-5009-4b75-b1dd-3ade2e29d6d4">
 
 # Project Overview
 
