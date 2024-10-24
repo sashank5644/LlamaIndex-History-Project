@@ -9,12 +9,13 @@
 
 The History Agent project is a full-stack web application designed as an expert chat engine for historical inquiries. Leveraging the principles of Retrieval-Augmented Generation (RAG), this application utilizes the advanced Llama 3 language model to deliver evidence-based responses to historical questions.
 
-Built on the FRAP stack (Flask, React, API, Pinecone), the project harnesses the following technologies:
+The tech stack consists of MongoDB, Flask, React, Python, and PineCone. The project harnesses the following technologies:
 
+* MongoDB: NoSQL database that stores data in a flexible, JSON-like format, allowing for scalable data storage and efficient querying of complex data structures.
 * Flask: Serves as the backend framework, providing robust integration capabilities and handling API requests efficiently.
 * React: Provides robust framework for the frontend user interface, delivering a responsive and engaging experience for users.
-* API: Facilitates seamless communication between the frontend and backend components of the application.
-* Pinecone: Manages the database, enabling efficient storage and retrieval of embeddings for enhanced query responses.
+* Python: Acts as the runtime environment for the Flask backend, executing server-side logic and managing asynchronous operations.
+* Pinecone: Manages the vector database, enabling efficient storage and retrieval of embeddings for enhanced query responses.
 
 # Purpose
 This comprehensive architecture ensures that the History Agent delivers accurate and contextually relevant answers, positioning it as a valuable resource for history enthusiasts, researchers, and students alike. By leveraging the capabilities of the Llama 3 language model and Retrieval-Augmented Generation, the application not only provides reliable information but also serves as an effective and efficient learning tool. It enhances users' understanding of historical concepts and events, fostering a more streamlined learning experience.
@@ -25,9 +26,10 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 1. **Historical Question-Answering**: Provides accurate, evidence-based answers to historical inquiries using the Llama 3 language model and Retrieval-Augmented Generation (RAG).
 2. **User-Friendly Interface**: Features an intuitive and engaging frontend built with React, ensuring ease of use and real-time interaction.
 3. **Optimized Model Performance**: Trained with the most efficient hyperparameters to deliver the most accurate possible answers, enhancing the overall learning experience.
-4. **Efficient Learning Tool**: Supports students and researchers by facilitating efficient study habits and deeper engagement with historical content.
-5. **Seamless Integration**: Utilizes CORS for smooth interaction between frontend and backend, built on the scalable FRAP stack (Flask, React, API, Pinecone).
-6. **Data Management**: Utilizes Pinecone for efficient storage and retrieval of vector embeddings, enhancing query performance.
+4. **Previous Chat History Management**: Provides accessibility to previous chat messages for analysis and management of data, optimizing learning efficieny.
+5. **Efficient Learning Tool**: Supports students and researchers by facilitating efficient study habits and deeper engagement with historical content.
+6. **Seamless Integration**: Utilizes CORS for smooth interaction between frontend and backend, built on the scalable FRAP stack (Flask, React, API, Pinecone).
+7. **Vector Data Management**: Utilizes Pinecone for efficient storage and retrieval of vector embeddings, enhancing query performance.
 
 
 
@@ -36,7 +38,7 @@ This comprehensive architecture ensures that the History Agent delivers accurate
 * Options: Instructions for running option 1 and option 2 (SEE BELOW FOR MORE INFO)
 * Test Data: Comprises of 2 documents (Amendments of U.S.) and is used for quick testing without pinecone account creation (READ BELOW FOR MORE INFORMATION)
 * Data: Includes initial 2 documents (Amendments of U.S.) and will be used to store openly available history text data
-* rag-history: Contains React application with CSS components, and stores Flask framework with Python, integrated with Pinecone.
+* rag-history: Contains React application with CSS components, and stores Flask framework with Python, integrated with Pinecone, and MongoDB.
 
 
 # Getting Started
@@ -47,13 +49,14 @@ Select one of the options for testing the project, and follow the instructions a
 
 [Option 1](Options/Option_1_README.md). Run complete RAG application for history
 
-   * (Longer runtime, application performs the functionalties for History Agent)
+   * (Longer runtime, application performs the full functionalties for History Agent)
    * Uses vector database and requires Pinecone account creation for API key
+   * Uses MongoDB on AWS cloud, requires MongoDB account creation for driver connection
    * You will need to download free history text data from available websites
 
 [Option 2](Options/Option_2_README.md). Run test RAG application using only 2 documents (Amendments of U.S.) as data
     
-   * (Faster, used for quick testing of application and doesn't require Pinecone account creation)
+   * (Faster, used for quick testing of application and doesn't require Pinecone or MongoDB account creation)
    * Application can answer questions about U.S. Amendments)
    * No need to download external history text data
 
